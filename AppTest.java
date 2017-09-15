@@ -69,6 +69,7 @@ public class ClickYes {
             File path = new File(name);
             Thread.sleep(500);
             mDevice.findObject(By.res("com.tinder:id/gamepad_like")).click();
+              //mDevice.findObjects(By.clazz("")).get(0).click();
             //mDevice.findObject(new UiSelector().className("some").text("")).click();
             //mDevice.findObject(new UiSelector().resourceId("").className("").text("")).click()
        // }
